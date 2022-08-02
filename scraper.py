@@ -54,7 +54,7 @@ def send_email(body):
     server_ssl.ehlo()   
 
     SENDER_EMAIL = 'sendsometrends@gmail.com'
-    RECEIVER_EMAIL = 'sendsometrends@gmail.com'
+    RECEIVER_EMAIL = 'pythonmks2@gmail.com'
     SENDER_PASSWORD = os.environ['GMAIL_PASSWORD']
     
     subject = 'YouTube Trending Videos'
